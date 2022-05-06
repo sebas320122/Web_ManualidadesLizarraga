@@ -1,0 +1,140 @@
+/*Diseño del menu --> */
+ul{
+    background-color: #140f07;
+    padding:10px;
+
+}
+
+li{
+    font-size: 35px;
+    display: inline-block;
+    font-style: normal;
+    padding-left:70px;
+    font-family: 'Secular One', sans-serif;
+    position: relative;
+    bottom:-10px;
+}
+
+a{
+    color: white;
+    
+}
+a:link{
+    text-decoration: none;
+    color:white;
+}
+
+#logo{
+width: 120px;
+height: 120px;  
+}
+.container-fluid{
+    background-color: #140f07;
+}
+
+.current{
+    color:#ff8a3c;
+}
+.current:hover{
+    color:#ff8a3c;
+}
+.not-current:hover{
+    color: #009e8e;
+}
+
+/*Diseño del menu <-- */
+
+/*Diseño de la informacion superior-->*/
+
+.info-up{
+    display: inline-block;
+}
+
+p{
+    font-family: 'Cantarell', sans-serif;
+}
+
+#info1{
+    padding-left: 40px;
+   position: relative;
+   bottom: 47px;
+}
+
+#quienes-somos{
+    background-color: #ff8a3c;
+    font-family: 'Space Mono', monospace;
+}
+
+#elab-cb{
+    background-color: #ff8a3c;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+#info2{
+    padding-left: 200px;
+    display: inline-block;
+}
+
+#txt2{
+    display: inline-block;
+    padding-right: 10px;
+}
+iframe{
+    width: 350px;
+    height:140px;
+}
+#video-container{
+    display: inline-block;
+    background-color: #009e8e;
+    width:370px;
+    height: 160px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/*Diseño de la informacion superior <--*/
+
+/*Diseño de la informacion inferior -->*/
+.separador{
+    display: block;
+}
+
+#info3{
+    display: inline-block;
+    padding-left: 40px;
+    position: relative;
+    bottom: 22px;
+}
+#title3{
+    background-color: #ff8a3c;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    width: 290px;
+}
+
+#info4{
+    display: inline-block;
+    padding-left: 210px;
+}
+#title4{
+    background-color: #ff8a3c;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    width:690px;
+}
+/*Diseño de la informacion superior <--*/
+
+/*Diseño del footer -->*/
+footer{
+    background-color: #140f07;
+    position: relative;
+    top: 18px;
+    padding:25px;
+    color: white;
+    text-align: center;
+    font-family: 'Cantarell', sans-serif;
+}
+/*Diseño del footer <--*/

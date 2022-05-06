@@ -1,0 +1,180 @@
+/*Diseño del menu --> */
+ul{
+    background-color: #140f07;
+    padding:10px;
+
+}
+
+li{
+    font-size: 35px;
+    display: inline-block;
+    font-style: normal;
+    padding-left:70px;
+    font-family: 'Secular One', sans-serif;
+    position: relative;
+    bottom:-10px;
+}
+
+a{
+    color: white;
+    
+}
+a:link{
+    text-decoration: none;
+    color:white;
+}
+
+#logo{
+width: 120px;
+height: 120px;  
+}
+.container-fluid{
+    background-color: #140f07;
+}
+
+.current{
+    color:#ff8a3c;
+}
+.current:hover{
+    color:#ff8a3c;
+}
+.not-current:hover{
+    color: #009e8e;
+}
+
+/*Diseño del menu <-- */
+
+
+/*Diseño del formulario -->*/
+
+/*Diseño del formulario <--*/
+
+#r_correo{
+    display: inline-block;
+    position: relative;
+    width: 700px;
+    left: 20px;
+    text-align: center;
+   
+}
+h2{
+    font-family:'Space Mono', monospace;
+}
+
+#title_correo{
+    background-color: #ff8a3c;
+}
+#recuadro_correo{
+    background-color: #009e8e;
+}
+
+form{
+    background-color: #009e8e;
+    height: 357px;
+}
+
+input{
+    display: block;
+    padding: 5px;
+    margin: 8px;
+    padding: 8px;
+    position: relative;
+    top:7px;
+    width: 660px;
+    font-family: 'Cantarell', sans-serif;
+}
+
+#i-nombre{
+    padding: 5px;
+    margin: 8px;
+    padding: 8px;
+    position: relative;
+    top:7px;
+    left: 10px;
+    width: 660px;
+}
+
+#i-email{
+    padding: 5px;
+    margin: 8px;
+    padding: 8px;
+    position: relative;
+    left: 10px;
+    top:7px;
+    width: 660px;
+}
+
+#i-asunto{
+    padding: 5px;
+    margin: 8px;
+    padding: 8px;
+    position: relative;
+    left: 10px;
+    top:7px;
+    width: 660px;
+}
+#i-mensaje{
+    margin: 8px;
+    padding: 8px;
+    width: 660px;
+    position: relative;
+    left: 10px;
+    max-width: 660px;
+    min-height: 150px;
+}
+
+
+
+/*Diseño de cuadro de redes -->*/
+#r_redes{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    text-align: center;
+    left: 100px;
+    bottom: 25px;
+}
+
+#title_redes{
+    background-color: #ff8a3c;
+}
+
+section{
+    text-align: left;
+}
+
+.social_icons{
+    max-width:100px;
+    max-height:100px;
+    display: inline-block;
+}
+
+.enlace{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Cantarell', sans-serif;
+    font-size:25px;
+    cursor: pointer;
+}
+
+.enlace:hover{
+    color: #140f07;
+}
+
+.c-redes{
+background-color: #009e8e;
+height: 355px;
+}
+/*Diseño del cuadro de redes <--*/
+
+/*Diseño del footer -->*/
+footer{
+    background-color: #140f07;
+    position: relative;
+    top: 30px;
+    padding:25px;
+    color: white;
+    text-align: center;
+    font-family: 'Cantarell', sans-serif;
+}
+/*Diseño del footer <--*/

@@ -1,0 +1,98 @@
+/*Diseño del menu --> */
+ul{
+    background-color: #140f07;
+    padding:10px;
+}
+
+li{
+    font-size: 35px;
+    display: inline;
+    font-style: normal;
+    padding-left:70px;
+    font-family: 'Secular One', sans-serif;
+    position: relative;
+    bottom:-10px;
+}
+
+a{
+    color: white;
+    
+}
+a:link{
+    text-decoration: none;
+    color:white;
+}
+
+#logo{
+width: 120px;
+height: 120px;  
+}
+.container-fluid{
+    background-color: #140f07;
+}
+
+.current{
+    color:#ff8a3c;
+}
+.current:hover{
+    color:#ff8a3c;
+}
+.not-current:hover{
+    color: #009e8e;
+}
+
+/*Diseño del menu <-- */
+
+/*Diseño del slider --> */
+.carousel-container{
+    width: 580px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide{
+    display: flex;
+    width:200px;
+    height:350px;
+}
+
+#prevBtn{
+    position:absolute;
+    top:300px;
+    z-index:10;
+    left: 330px;
+    font-size: 80px;
+    color: #140f07;
+    cursor: pointer;
+}
+#nextBtn{
+    position: absolute;
+    top:300px;
+    z-index:10;
+    right: 330px;
+    font-size:80px;
+    color: #140f07;
+    cursor: pointer;
+}
+
+#contenedor_slider{
+    background-color: #009e8e;
+    padding: 30px;
+    margin: auto;
+    width:800px;
+}
+
+/*Diseño del slider <-- */
+
+/*Diseño del footer -->*/
+footer{
+    background-color: #140f07;
+    position: relative;
+    top: 30px;
+    padding:25px;
+    color: white;
+    text-align: center;
+    font-family: 'Cantarell', sans-serif;
+}
+/*Diseño del footer <--*/
